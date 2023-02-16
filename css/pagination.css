@@ -1,0 +1,22 @@
+.pagination{
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pagination__options{
+    background-color: var(--secundaria);
+    width: 1rem;
+    padding: 1rem;
+    
+    font-weight: bold;
+}
+
+.pagination__options:hover{
+    cursor: pointer;
+}

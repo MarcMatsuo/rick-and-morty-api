@@ -1,0 +1,106 @@
+.character__list{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 4rem 2rem;
+    padding: 1rem;
+
+    justify-content: space-evenly;
+}
+
+.character__item{
+    display: flex;
+    gap: 3rem;
+
+    background-color:var(--secundaria);
+    border-radius: 8px;
+    width: 45%;
+    height: 20vw;
+}
+
+.character__image{
+    width: 40%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.character__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.character__name{
+    font-size: 2.5rem;
+}
+
+.character__species{
+    font-size: 1.5rem;
+}
+
+.character__status{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    
+    gap: 0.5rem;
+}
+
+.character__icon{
+    width: 0.5rem;
+    height: 0.5rem;
+
+    display: flex;
+
+    border-radius: 50%;
+}
+
+.Alive{
+    background-color: green;
+}
+
+.Dead{
+    background-color: red;
+}
+
+.unknown{
+    background-color: lightgray;
+}
+
+.character__location{
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1030px){
+    .character__name{
+        font-size: 1.5em;
+    }
+
+    .character__species{
+        font-size: 0.8rem;
+    }
+
+    .character__status{
+        font-size: 1rem;
+    }
+
+    .character__location{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .character__item{
+        width: 80%;
+        height: auto;
+    }   
+
+    .character__name{
+        font-size: 2rem;
+    }
+}

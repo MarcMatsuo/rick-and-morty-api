@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick And Morty Characters</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" 
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Rick And Morty Characters</h1>
+    </header>
+    <section>
+        <ul class="character__list" id="character-list">
+        </ul>
+    </section>
+    <section class="pagination" id="pagination">
+        <span class="pagination__options" id="pagination__first__page"><<</span>
+        <span class="pagination__options" id="pagination__first__number">1</span>
+        <span class="pagination__options" id="pagination__mid__number">2</span>
+        <span class="pagination__options" id="pagination__last__number">3</span>
+        <span class="pagination__options" id="pagination__last__page">>></span>
+    </section>
+    <footer class="footer">
+        <p class="footer__p">Developed by Marcos Matsuo</p>
+        <a class="footer__link" href="https://github.com/MarcMatsuo"><i class="fa-brands fa-github"></i></a>
+        <p class="footer__api">API <a href="https://rickandmortyapi.com">Rickandmortyapi</a> by Axel Fuhrmann and Talita</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
